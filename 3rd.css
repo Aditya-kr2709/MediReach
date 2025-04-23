@@ -1,0 +1,67 @@
+.header {
+    background: linear-gradient(to right, #123f22, #05bd49);
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 50;
+  }
+  
+  .hero {
+    background-color: #bae4ce;
+    padding: 2rem;
+    animation: fadeIn 1.5s ease-in;
+  }
+  
+  .search-input {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    max-width: 400px;
+  }
+  
+  .service-box,
+  .card-box {
+    background: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .section-box {
+    background: white;
+    padding: 2rem 1.5rem;
+  }
+  
+  .section-title {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #047857;
+    margin-bottom: 1.5rem;
+  }
+  
+  .footer {
+    background: linear-gradient(to right, #20472f, #0c8a3a);
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

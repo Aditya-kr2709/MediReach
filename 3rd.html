@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MediReach - Connect to Care</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="3rd.css">
+</head>
+<body class="bg-gray-100">
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container mx-auto flex justify-between items-center text-white">
+      <div class="text-xl font-bold">MediReach</div>
+      <nav class="space-x-6">
+        <a href="#" class="hover:underline">Home</a>
+        <a href="#doctors" class="hover:underline">Find Doctors</a>
+        <a href="#patients" class="hover:underline">Patients</a>
+        <a href="#connect" class="hover:underline">Connect</a>
+        <a href="#login" class="bg-white text-green-700 px-4 py-2 rounded hover:bg-gray-200">Login</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container mx-auto text-center">
+      <h1 class="text-3xl md:text-5xl font-bold text-green-800 mb-4">Quick Medical Help for Everyone</h1>
+      <p class="text-gray-700 text-lg">Connecting rural patients to doctors with one-on-one consultation, emergency first aid guidance, and nearest hospital recommendations.</p>
+      <div class="mt-6">
+        <input type="text" placeholder="Search Medical Help..." class="search-input">
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="container mx-auto p-6 grid md:grid-cols-3 gap-4">
+    <div class="service-box">
+      <img src="https://img.icons8.com/ios-filled/50/4caf50/doctor-male.png" alt="Doctor" />
+      <h3>Connect to Doctor</h3>
+      <p>One-to-one consultations via chat or video.</p>
+    </div>
+    <div class="service-box">
+      <img src="https://img.icons8.com/ios-filled/50/4caf50/first-aid-kit.png" alt="First Aid" />
+      <h3>First Aid Guide</h3>
+      <p>Step-by-step guidance for emergencies.</p>
+    </div>
+    <div class="service-box">
+      <img src="https://img.icons8.com/ios-filled/50/4caf50/hospital.png" alt="Hospital" />
+      <h3>Nearest Hospital</h3>
+      <p>Get directions and contact info of nearby facilities.</p>
+    </div>
+  </section>
+
+  <!-- Doctors -->
+  <section id="doctors" class="section-box">
+    <h2 class="section-title">Doctor Section</h2>
+    <div class="grid md:grid-cols-2 gap-4">
+      <div class="card-box">
+        <img src="https://img.icons8.com/ios-filled/50/4caf50/add-user-group-man-man.png" alt="Register" />
+        <h3>Register & Consult</h3>
+        <p>Doctors can register and provide quick consultation services.</p>
+      </div>
+      <div class="card-box">
+        <img src="https://img.icons8.com/ios-filled/50/4caf50/treatment-plan.png" alt="Manage Patients" />
+        <h3>Manage Patients</h3>
+        <p>Track, update, and communicate with patients easily.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Patients -->
+  <section id="patients" class="section-box bg-gray-100">
+    <h2 class="section-title">Patient Section</h2>
+    <div class="grid md:grid-cols-2 gap-4">
+      <div class="card-box bg-white">
+        <img src="https://img.icons8.com/ios-filled/50/4caf50/calendar.png" alt="Appointment" />
+        <h3>Book Appointments</h3>
+        <p>Find doctors and schedule consultations.</p>
+      </div>
+      <div class="card-box bg-white">
+        <img src="https://img.icons8.com/ios-filled/50/4caf50/emergency-call.png" alt="Emergency" />
+        <h3>Emergency Contact</h3>
+        <p>Instantly alert doctors or ambulance services.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 MediReach. All rights reserved.</p>
+  </footer>
+
+  <script src="3rd.js"></script>
+</body>
+</html>
